@@ -1,0 +1,111 @@
+.cover {
+
+}
+
+.grid {
+    margin: 0;
+}
+
+.buttonBlock button {
+    margin: 15px;
+}
+
+.rowBlock {
+    height: 32px;
+}
+
+.isPathNode {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD95A;
+}
+
+.visualize_button {
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #A1CCD1;
+    box-shadow: 2px 2px 6px #888;
+    cursor: pointer;
+    color: #FAF0D7;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.visualize_button:hover {
+    background-color: #75C2F6;
+}
+
+.reset_button {
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px #888;
+    cursor: pointer;
+    color: #FAF0D7;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FF9EAA;
+}
+
+.reset_button:hover{
+    background-color: #99DBF5;
+}
+
+.walls_button {
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px #888;
+    cursor: pointer;
+    color: #FAF0D7;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #322653;
+    cursor: pointer;
+}
+
+.walls_button:hover{
+    background-color: #99DBF5;
+}
+
+
+@media screen and (max-width: 1206px) {
+    .isPathNode {
+        width: 20px;
+        height: 20px;
+    }
+
+    .walls_button, .reset_button, .visualize_button {
+        width: 60px;
+        font-size: 10px;
+    }
+    .rowBlock {
+        height: 21.5px;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    .isPathNode{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .isPathNode {
+        width: 10px;
+        height: 10px;
+    }
+    .rowBlock {
+        height: 13px;
+    }
+}

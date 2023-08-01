@@ -1,0 +1,83 @@
+
+.node {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.start {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    cursor: pointer;
+}
+.end {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.visited {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.isPathNode {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+.isWall {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 1206px) {
+    .isPathNode, .isWall, .visited, .end, .start, .node {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .isPathNode, .isWall, .visited, .end, .start, .node {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .isPathNode, .isWall, .visited, .end, .start, .node {
+        width: 10px;
+        height: 10px;
+    }
+}
